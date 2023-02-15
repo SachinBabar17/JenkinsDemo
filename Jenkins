@@ -15,5 +15,12 @@ pipeline{
                 echo 'Build stage completed'
             }
         }
+         stage('Deploy'){
+            steps{
+                echo 'Build stage in progress'
+                sleep 2
+                echo 'Build stage completed'
+            }
+        }
     }
 }
