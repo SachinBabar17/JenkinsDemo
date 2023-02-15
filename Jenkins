@@ -7,12 +7,6 @@ pipeline{
                 sleep 2
                 echo 'Build stage completed'
             }
-         }
-         stage('Test'){
-            steps{
-                echo 'Build stage in progress'
-                sleep 2
-                echo 'Build stage completed'
         }
     }
 }
